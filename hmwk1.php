@@ -37,17 +37,17 @@ $myhtml->set_H4_tag($H4_tg);
 $myhtml->set_H5_tag($H5_tg);
 $myhtml->set_H6_tag($H6_tg);
 
-print($myhtml->get_HTML_doctype()."<br />");
-print($myhtml->get_javascr_link()."<br />");
-print($myhtml->get_CSS_link()."<br />");
-print($myhtml->get_body_tag()."<br />");
-print($myhtml->get_HTML_tag()."<br />");
-print($myhtml->get_H1_tag()."<br />");
-print($myhtml->get_H2_tag()."<br />");
-print($myhtml->get_H3_tag()."<br />");
-print($myhtml->get_H4_tag()."<br />");
-print($myhtml->get_H5_tag()."<br />");
-print($myhtml->get_H6_tag()."<br />");
+echo $myhtml->get_HTML_doctype()."\r\n";
+echo $myhtml->get_javascr_link()."\r\n";
+echo $myhtml->get_CSS_link()."\r\n";
+echo $myhtml->get_body_tag()."\r\n";
+echo $myhtml->get_HTML_tag()."\r\n";
+echo $myhtml->get_H1_tag()."\r\n";
+echo $myhtml->get_H2_tag()."\r\n";
+echo $myhtml->get_H3_tag()."\r\n";
+echo $myhtml->get_H4_tag()."\r\n";
+echo $myhtml->get_H5_tag()."\r\n";
+echo $myhtml->get_H6_tag()."\r\n";
 
 ?> 
 
