@@ -1,0 +1,79 @@
+	h1, h2, h3, h4, h5, h6 {
+		width: 250px;
+	}
+
+	h1 {color:#00ff00;
+	    text-decoration:underline;
+	}
+
+	h2 {color:#ff0000;
+	    text-decoration:blink;
+	}
+
+	h3 {color:#0000ff;
+	    font-style:italic;
+	}
+
+	h4 {background-color:#00ff00;
+	    font-weight:bold;
+	    color:#ffffff;
+	}
+
+	h5 {background-color:#ff0000;
+	    font-weight:bold;
+	    color:#ffffff;
+	}
+
+	h6 {background-color:#0000ff;
+	    font-weight:bold;
+	    color:#ffffff;
+	}
+
+	ol.listClass {list-style-type:upper-roman;}
+	
+	a:link {text-decoration:none;
+	        background-color:#B2FF99;
+	}
+	a:visited {text-decoration:none;
+	           background-color:#FFFF85;
+	}
+	a:hover {text-decoration:underline;
+	         background-color:#FF704D;
+	}
+	a:active {text-decoration:underline;
+	          background-color:#FF704D;
+	}
+	
+	p {text-align:left;
+	  text-indent:50px;
+	  font-family:"Times New Roman", Times, serif;
+	  font-size:20px;
+	  padding-top:25px;
+	}
+	
+	p.noindent {text-indent:0px;
+	}
+	
+	blockquote {color:orange;
+	    font-size:20px;
+	    font-style:italic;
+	}
+	
+	#myTable {
+	border-collapse:collapse;
+	width:100%;
+	}
+	#myTable th, #myTable td {
+	border: 1px solid black;
+	text-align:left;
+	}
+	#myTable th {
+	background-color: blue;
+	}
+	#myTable tr.d0 td {
+        background-color:red;
+	}
+	#myTable tr.d1 td {
+        background-color:green;
+	}
+	
