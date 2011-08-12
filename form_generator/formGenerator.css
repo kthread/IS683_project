@@ -124,6 +124,10 @@
 	  color:white;
 	  text-transform: uppercase;
 	}
+	#banner {
+	  font-style: italic;
+	  color:#00008b;
+	}
 	#footer {
 	  clear: both;
 	  position: relative;
