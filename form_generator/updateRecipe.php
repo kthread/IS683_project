@@ -1,0 +1,5 @@
+<?php
+
+generate->updateRecipe();
+
+?>
