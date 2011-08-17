@@ -9,10 +9,10 @@
 	#myTable th {
 	background-color: blue;
 	}
-	#myTable tr.d0 td {
+	#myTable tr.odd td {
         background-color:red;
 	}
-	#myTable tr.d1 td {
+	#myTable tr.even td {
         background-color:green;
 	}
 	
