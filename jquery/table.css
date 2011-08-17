@@ -1,0 +1,18 @@
+	#myTable {
+	border-collapse:collapse;
+	width:100%;
+	}
+	#myTable th, #myTable td {
+	border: 1px solid black;
+	text-align:left;
+	}
+	#myTable th {
+	background-color: blue;
+	}
+	#myTable tr.odd td {
+        background-color:red;
+	}
+	#myTable tr.even td {
+        background-color:green;
+	}
+	
